@@ -211,7 +211,9 @@ body {
 .Gallery-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
 }
-button{
+
+
+.vm-btn{
     margin: 50px;
     margin-left: 605px;
     background-color:#02021E;
@@ -227,9 +229,80 @@ button{
     margin-bottom: 60px;
 }
 
-button:hover{
+.vm-btn:hover{
     background-color: #FFFAF2;
     color: black;
     border-radius: 2px;
     border: 2px solid black;
+}
+
+@media screen and (max-width:1440px) {
+  .vm-btn{
+    margin-left: 605px;
+  }
+  .main{
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .vm-btn{
+    margin-left: 440px;
+  }
+  .main{
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width:990px) {
+  .vm-btn{
+    margin-left: 415px;
+  }
+  .main{
+    overflow: hidden;
+  }
+
+}
+
+
+@media screen and (max-width:768px) {
+  .vm-btn{
+    margin-left: 310px;
+    margin-top: 0px;
+  }
+  .main{
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .vm-btn{
+    margin-left: 180px;
+    margin-top: 0px;
+  }
+  .main{
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .vm-btn{
+    margin-left: 155px;
+    margin-top: 0px;
+  }
+  .main{
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width:360px) {
+  .vm-btn{
+    margin-left: 110px;
+    margin-top: 0px;
+  }
+
+
+  .main{
+    overflow: hidden;
+  }
 }
