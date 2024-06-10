@@ -239,25 +239,18 @@ body {
 }
 
 .vm-btn:focus{
-  background-color: purple; 
-
+  background-color: pink;
 }
 
 @media screen and (max-width:1440px) {
   .vm-btn{
     margin-left: 605px;
   }
-  .main{
-    overflow: hidden;
-  }
 }
 
 @media screen and (max-width:1024px) {
   .vm-btn{
     margin-left: 440px;
-  }
-  .main{
-    overflow: hidden;
   }
 }
 
@@ -307,8 +300,6 @@ body {
     margin-left: 110px;
     margin-top: 0px;
   }
-
-
   .main{
     overflow: hidden;
   }
