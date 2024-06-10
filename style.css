@@ -238,6 +238,11 @@ body {
     border: 2px solid black;
 }
 
+.vm-btn:focus{
+  background-color: purple; 
+
+}
+
 @media screen and (max-width:1440px) {
   .vm-btn{
     margin-left: 605px;
