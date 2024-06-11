@@ -1918,6 +1918,7 @@ body {
 
 .main {
   background-color: #CBCBCB;
+  overflow: hidden;
 }
 .btn-container{
   margin-bottom: 0.5rem;
