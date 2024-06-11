@@ -10,10 +10,6 @@ var GallerySlider = new Swiper('.Gallery-slider', {
       depth: 100,
       modifier: 2.5,
     },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
